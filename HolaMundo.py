@@ -140,6 +140,10 @@ print(r);
  """
 
 """ lo que hacemos es que la misma variable su sume pero aumentado en 1 """
+from re import A
+import string
+
+
 c = 0;
 c += 10;
 """ restamos 5  """
@@ -168,9 +172,9 @@ print(c);
 
 
 
-""" salida de datos 
+""" SALIDA DE DATOS
 
-esta es la forma mas comun de hacr salida de datos 
+esta es la forma mas comun de hacer salida de datos 
 
 app = "flutter"
 proyecto = "comFlu"
@@ -189,20 +193,21 @@ print(f"Tu proyecto se llama {cadena}")
 
 """
 
-
-""" en phython no se pueden mesclar los string con los numeros 
+""" en phython no se pueden mesclar los string con los numeros  
 cadena = input("¿que version es: ")
-print(f"es la version: {cadena+1}")
-"""
+print(f"es la version: {cadena+1}") """
+
 
 
 """ forma correcta 
 cadena = int (input("¿que version es?: "))
 print(f"es la version: {cadena+1}")
-"""
+ """
 
 
 """ forma de hacer con decimales """
 
-cadena2 = float(input("que version es?: "))
-print(f"es la version: {cadena2+ 1.3}")
+""" cadena2 = float(input("que version es?: "))
+print(f"es la version: {cadena2+ 1.3}") """
+
+
