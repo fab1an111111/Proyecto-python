@@ -48,7 +48,7 @@ numero2 = 4;
 
 suma = numero1 + numero2;
 
-ejercicio = (numero1 +numero2*5)/12
+ejercicio = (numero1 + numero2*5)/12
 
 print((type)suma);
 """
@@ -193,7 +193,7 @@ print(f"Tu proyecto se llama {cadena}")
 
 """
 
-""" en phython no se pueden mesclar los string con los numeros  
+""" en phython no se pueden mesclar string con numeros  
 cadena = input("¿que version es: ")
 print(f"es la version: {cadena+1}") """
 
@@ -208,6 +208,6 @@ print(f"es la version: {cadena+1}")
 """ forma de hacer con decimales """
 
 """ cadena2 = float(input("que version es?: "))
-print(f"es la version: {cadena2+ 1.3}") """
+print(f"es la version: {cadena2 + 1.3}") """
 
 
