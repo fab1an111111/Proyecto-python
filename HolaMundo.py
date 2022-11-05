@@ -41,17 +41,17 @@ print(type(dato))
  """
 
 
-""" como hacer suma 
-numero1 = 2;
+#como hacer suma 
+""" numero1 = 2;
 
 numero2 = 4;
 
 suma = numero1 + numero2;
 
-ejercicio = (numero1 + numero2*5)/12
+ejercicio = int(numero1 + numero2*5)/2
 
-print((type)suma);
-"""
+print(f"el valor es: {ejercicio}")
+ """
 
 
 """ como combinar un string con un numero 
@@ -87,12 +87,13 @@ print("el valor es:", c);
  """
 
 
-""" ejemplos de formulas 
- 
-r = (5+9/3)**2
-print(r)
-"""
+# ejemplos de formulas 
 
+"""  
+r = int(6+9/3)**2
+print(r)
+
+ """
 
 
 """ OPERADORES RELACIONALES 
@@ -113,7 +114,8 @@ OPERADOR    COMPARACION
 r = 100 >= 120
 
 print(r)
- """
+
+"""
 
 
 """ 
@@ -145,14 +147,16 @@ import string
 
 
 c = 0;
+
 c += 10;
 """ restamos 5  """
 c -= 5;
-""" se incrementa con una multiplicacion 
+""" 
+se incrementa con una multiplicacion 
 c *= 3;
 
 """
-""" dividemos 
+""" dividimos 
 c /= 5;
 
 """

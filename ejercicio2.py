@@ -6,11 +6,13 @@
 a = input("a: ")
 b = input("b: ")
 
-# lo que se hace aqui es que a y b tiene que cambiar de pocision dando un valor de Ej = (A:10 , B:20),cambiando a (A:20 , b:10)
+# lo que se hace aqui es que a y b tiene que cambiar de pocision dando un valor de Ej = (A=10 , B=20),cambiando a (A=20 , b=10)
+
 a,b=b,a
 
 print(f"El nuevo valor de a es: {a}")
 print(f"El nuevo valor de b es: {b}") 
+
 """
 
 
@@ -20,20 +22,21 @@ nombre2 = input("segundo N: ")
 
 print(f"el nuevo nombre es: {nombre}")
 print(f"el nuevo nombre es: {nombre2}")
- """
+
+"""
 
 # ejercicio 2 
 
 """ 
-numero = input("numero1: ")
-numero2 = input("numero2: ")
+numero = int(input("numero1: "))
+numero2 = int(input("numero2: "))
 
 numero,numero2 = numero2,numero
 
 print(f"ahora el valor del primer numero es: {numero} ")
 print(f"ahora el valor del segundo numero es: {numero2}") 
 
-"""
+""" 
 
 
 # ejercicio 3 

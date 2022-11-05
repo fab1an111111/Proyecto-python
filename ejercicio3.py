@@ -1,7 +1,7 @@
 
 #Ejercicio 3 Obtener el radio y longitud de un circulo en Python
 
-""" math lo vamos a ocupar para trabajar operaciones pi 
+""" "math" lo vamos a ocupar para trabajar operaciones pi 
  
 import math 
 

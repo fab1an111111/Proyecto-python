@@ -1,7 +1,9 @@
 
 
 """  Ejercicio 4 Obtener el precio final que se tiene que pagar si se aplica el 36%
-de descuento del total de la compra. """
+de descuento del total de la compra.
+
+"""
 
 
 """ 
@@ -14,13 +16,14 @@ descuento = precio*(36/100)
 precioFinal = precio-descuento
 
 print(f"el precio final es: $/ .{precioFinal:.3f}") 
-"""
 
+ 
+"""
 
 # ejercicio 2 descuento
 
 """ 
-producto = 5.000
+ producto = 5.000
 
 producto2 = 9.000
 
@@ -34,9 +37,10 @@ print(f"el descuento es de: {descuento:.3f}")
 print(f"su valor es {descuento - r:.3f}")
 
  """
-# ejercicio 3 descuento
 
- 
+
+# ejercicio 3 descuent
+
 producto=float(input("producto: "))
 
 producto2=float(input("producto2: "))
