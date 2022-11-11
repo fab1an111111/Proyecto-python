@@ -23,7 +23,7 @@ print(f"el precio final es: $/ .{precioFinal:.3f}")
 # ejercicio 2 descuento
 
 """ 
- producto = 5.000
+producto = 5.000
 
 producto2 = 9.000
 

@@ -7,7 +7,7 @@
 n1=int(input("Ingrese un numero: "))
 n2=int(input("Ingrese segundo numero: "))
 
-# le digo si es un es 10 el modulo(%)lo divide en 2 si se arroja un 0 es par
+# le digo si es un 10 el modulo(%)lo divide en 2 si se arroja un 0 es par
 if n1%2 == 0 and n2%2 == 0:
     print("ambos son pares")
 elif n1%2 == 0 and n2%2 != 0:
@@ -22,7 +22,7 @@ else:
 numero1 = int(input("primero numero: "))
 numero2 = int(input("segundo numero: "))
 
-if numero1%2 == 0 and numero2%2 ==0:
+if numero1%2 == 0 and numero2%2 == 0:
     print(f"{numero1} es un numero par")
     print(f"{numero2} es un numero par")
 elif numero1%2!= 0 and numero2%2!= 0:
